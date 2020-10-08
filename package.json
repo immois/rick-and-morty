@@ -1,4 +1,5 @@
 {
+  "homepage": "https://rolan19.github.io/Rick-and-Morty",
   "name": "app-rickandmorty",
   "version": "1.0.0",
   "description": "Consumiendo API de Rick and Morty",
@@ -6,7 +7,8 @@
   "scripts": {
     "dev": "webpack-dev-server -d --config ./webpack.dev.js",
     "build": "webpack --config ./webpack.prod.js",
-    "start": "npx serve ./dist -p ${PORT:-3005}"
+    "start": "npx serve ./dist -p ${PORT:-3005}",
+    "deploy": "gh-pages -d ./dist"
   },
   "author": "@rolan_dev",
   "license": "MIT",

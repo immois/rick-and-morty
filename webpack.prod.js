@@ -11,7 +11,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, "dist"),
-    publicPath: "/",
+    publicPath: "https://rolan19.github.io/Rick-and-Morty/",
     filename: "js/[name].[hash].js",
   },
   mode: "production",
